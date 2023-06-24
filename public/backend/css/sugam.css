@@ -1,0 +1,92 @@
+/* login page stylesheet : start - 1 to 103 */
+
+body{
+	background-image:url('../images/bg.jpg');
+	background-repeat:round;
+}
+.error-top {
+	text-align: center;
+	margin: 2em auto;
+	background: #fff;
+	width: 30%;
+	position: absolute;
+	left: 35%;
+	top: 13%;
+}
+.login{
+	padding:2em;
+}
+.logo{
+    padding: 4px 0px;
+    border-bottom: 1px solid #E7E7E7;
+}
+.logo img{
+	margin:0px auto;
+}
+h3.inner-title.t-inner {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0.7em;
+	margin-top:0px;
+	text-transform:uppercase;
+	color: #333;
+}
+.login input[type="text"], .login input[type="password"], .login input[type="email"] {
+	width: 100%;
+	padding: 0.9em 1em 0.9em 4em;
+	color: #777;
+	font-size: 15px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid #ddd;
+	background: url(../images/icons.png) no-repeat 14px 17px;
+	margin: 0.3em 0;
+	font-family: 'Roboto', sans-serif;
+}
+.login input[type="password"] {
+	background: url(../images/icons.png) no-repeat 13px -33px;
+}
+.submit {
+	margin: 1em 0;
+}
+.login input[type="submit"] {
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	padding: 10px 15px;
+	width: 100%;
+	border: 2px solid #3E5EAB;
+	background: #3E5EAB;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.login input[type="submit"]:hover {
+	background: #333;
+	border: 2px dotted #333;
+	color: #FFF;
+}
+ @media (max-width: 600px) {
+.error-top {
+	margin: 7em auto;
+	width: 70%;
+	padding: 2em 2em;
+	position: absolute;
+	left: 15%;
+	top: 13%;
+}
+}
+/* login page stylesheet : end - 1 to 103 */
+
+.error{
+	font-weight:bold;
+	color:#a94442;
+	text-align:center;
+}
